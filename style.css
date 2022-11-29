@@ -1,0 +1,94 @@
+body {
+	background: url("transparent1.png") transparent,
+	 url("transparent2.png") transparent;	
+	background-image: url('star_background.jfif');
+	color: white;
+}
+
+tr:nth-child(even) {
+	background-color: black;
+}
+
+table {
+	background-color: black;
+	color: white;
+	border: 1px;
+	border-color: black;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: normal;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	border: 1px;
+	border-color: white;
+	font-weight: bold;
+}
+
+td {
+	font-size: 20px;
+	border: 1px;
+	border-color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: white;
+}
+
+.table1 {
+	width: 70%;
+	height: 70%;
+	border: 2px groove white;
+	border-collapse: separate;
+	border-spacing: 2px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.table1 th {
+	border: 2px groove white;
+	padding: 5px;
+	background: blue;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.table1 td {
+	border: 2px groove white;
+	padding: 5px;
+	background: black;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
